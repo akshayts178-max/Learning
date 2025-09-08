@@ -43,10 +43,12 @@ public class Arrays {
             System.out.println(stud.name + " : " + stud.marks);
         }
     }
+
+    static class Students {
+        int roll;
+        String name;
+        int marks;
+    }
 }
 
-class Students {
-    int roll;
-    String name;
-    int marks;
-}
+

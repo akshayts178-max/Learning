@@ -6,7 +6,7 @@ public class ArithematicOperations {
         int sum = num1 + num2;
         int difference = num2 - num1;
         int product = num1 * num2;
-        int quotient = num1 / num2;
+        int quotient = num1 / 0;
         int remainder = num1 % num2;
 
         System.out.println(sum);
